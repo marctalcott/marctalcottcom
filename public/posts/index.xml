@@ -2,18 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Marc Talcott Blog</title>
-    <link>http://localhost:58717/posts/</link>
+    <link>http://localhost:65216/posts/</link>
     <description>Recent content in Posts on Marc Talcott Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jul 2024 07:58:22 -0400</lastBuildDate>
-    <atom:link href="http://localhost:58717/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:58717/posts/my-first-post/</link>
-      <pubDate>Mon, 29 Jul 2024 07:58:22 -0400</pubDate>
-      <guid>http://localhost:58717/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.&#xA;Visit the Hugo website!</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:65216/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
