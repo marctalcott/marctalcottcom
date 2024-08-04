@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Marc Talcott Blog</title>
-    <link>http://localhost:65216/posts/</link>
-    <description>Recent content in Posts on Marc Talcott Blog</description>
+    <title>Posts on Marc Talcott Profile</title>
+    <link>http://localhost:60824/posts/</link>
+    <description>Recent content in Posts on Marc Talcott Profile</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:65216/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jul 2024 07:58:22 -0400</lastBuildDate>
+    <atom:link href="http://localhost:60824/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:60824/posts/my-first-post/</link>
+      <pubDate>Mon, 29 Jul 2024 07:58:22 -0400</pubDate>
+      <guid>http://localhost:60824/posts/my-first-post/</guid>
+      <description>Introduction I started blogging in 2013 - 2017 on &amp;lsquo;marcustalcott.com&amp;rsquo;. You can find my old articles on Wayback Machine. After 2017 I changed that several times trying to incorporate my photography, and moving the site from service to service. I lost most of the old articles, but that is fine with me. Tech articles from 2013 aren&amp;rsquo;t very relevant anymore.&#xA;I have posted more recent technical posts on Elixm.com. These are generally related to Event Sourcing, Event Modeling, CQRS, Hexagonal Achitecture, and anything else related to developing Event Sourced Applications.</description>
+    </item>
   </channel>
 </rss>
