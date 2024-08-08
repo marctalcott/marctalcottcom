@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Marc Talcott Profile</title>
+    <title></title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Marc Talcott Profile</description>
+    <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Jul 2024 07:58:22 -0400</lastBuildDate>
@@ -14,6 +14,62 @@
       <pubDate>Mon, 29 Jul 2024 07:58:22 -0400</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>Introduction I started blogging in 2013 - 2017 on &amp;lsquo;marcustalcott.com&amp;rsquo;. You can find my old articles on Wayback Machine. After 2017 I changed that several times trying to incorporate my photography, and moving the site from service to service. I lost most of the old articles, but that is fine with me. Tech articles from 2013 aren&amp;rsquo;t very relevant anymore.&#xA;I have posted more recent technical posts on Elixm.com. These are generally related to Event Sourcing, Event Modeling, CQRS, Hexagonal Achitecture, and anything else related to developing Event Sourced Applications.</description>
+    </item>
+    <item>
+      <title>Sr. Software Manager at Inmar</title>
+      <link>http://localhost:1313/experience/inmar/</link>
+      <pubDate>Sun, 01 Dec 2013 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/experience/inmar/</guid>
+      <description>Sr. Manager of Software Engineering I was promoted to Sr. Manager of Software Engineering and continued to lead and grow the Finance IT team&#xA;With the help and support of my incredible team, my goal at this point is to support and grow my team members into the best engineers and leaders they can be.&#xA;Engineered and directed an event based system to synchronize data between SalesForce, Oracle, and internally created applications.</description>
+    </item>
+    <item>
+      <title>Software Engineering Manager at Inmar</title>
+      <link>http://localhost:1313/experience/inmar-mgr/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/experience/inmar-mgr/</guid>
+      <description>Software Engineering Manager I was promoted to Manager of my team in 2020. As we grew the team I evolved into more of an architectural and tech lead role.&#xA;Design and implement solutions related to billing and payment solutions. .Net, C#, MSSQL, Azure, Kubernetes Event Sourcing, CQRS, Event Modeling </description>
+    </item>
+    <item>
+      <title>Sr. Software Engineer at Inmar</title>
+      <link>http://localhost:1313/experience/inmar-sr-eng/</link>
+      <pubDate>Thu, 01 Dec 2011 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/experience/inmar-sr-eng/</guid>
+      <description>Sr. Software Engineer I joined Inmar in 2017 as Sr. Software Engineer on the Health Care team. After a year I joined a 5 person Finance IT Team. I loved the camaraderie and technical challenges of that small team.&#xA;Design and implement solutions related to billing and payment solutions. Introduced and adopted the use of Event Sourcing as the main paradigm for building software for the Finance IT Team. .Net, C#, MSSQL, Azure, Kubernetes Event Sourcing, CQRS, Event Modeling </description>
+    </item>
+    <item>
+      <title>Sr. Software Engineer</title>
+      <link>http://localhost:1313/experience/senteon/</link>
+      <pubDate>Wed, 01 Dec 2010 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/experience/senteon/</guid>
+      <description>Sr. Software Engineer Developed security software solutions enhancing security measures for businesses and protecting sensitive data. Collaborated with cross-functional teams to gather requirements, design system architecture, and ensure seamless integration of security features into existing platforms. .NET, C#, MSSQL, MVC, Angular, Javascript, TypeScript </description>
+    </item>
+    <item>
+      <title>Contract Software Engineer</title>
+      <link>http://localhost:1313/experience/ecolab/</link>
+      <pubDate>Tue, 01 Dec 2009 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/experience/ecolab/</guid>
+      <description>Contract Software Engineer I joined Ecolab as a Sr. Software Engineer to help extend functionality to software used by the sales team.&#xA;Developed and maintained software solutions tailored to the needs of Ecolab&amp;rsquo;s sales team, improving efficiency and effectiveness in sales processes. .Net, C#, MSSQL, WPF </description>
+    </item>
+    <item>
+      <title>Software Engineer</title>
+      <link>http://localhost:1313/experience/northstate/</link>
+      <pubDate>Mon, 01 Dec 2008 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/experience/northstate/</guid>
+      <description>Software Engineer Designed and developed MSSQL databases, ensuring robust data management and efficient querying for various applications and reporting needs. Created and maintained ASP.NET MVC and WebAPI applications, delivering dynamic web solutions and seamless API integrations to support business functions. Automated task processes to enhance operational efficiency and reduce manual workload, streamlining repetitive tasks and improving system reliability. Developed SSRS (SQL Server Reporting Services) reports, providing insightful and accurate business intelligence through custom report solutions.</description>
+    </item>
+    <item>
+      <title>Co-founder, Lead Engineer</title>
+      <link>http://localhost:1313/experience/aquest/</link>
+      <pubDate>Sat, 01 Dec 2007 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/experience/aquest/</guid>
+      <description>Co-Founder &amp;amp; Lead Engineer Founded and developed a web hosting company specializing in services for .NET developers, overseeing both strategic direction and technical implementation. Engineered a custom application to automate server resource allocation and manage access to Windows and SQL Servers, enhancing operational efficiency and scalability. Designed and implemented the original billing system for hosting services, streamlining financial operations and improving accuracy in customer invoicing. Drove innovation in hosting technologies and customer support, contributing to the company&amp;rsquo;s growth and market presence.</description>
+    </item>
+    <item>
+      <title>Web Developer</title>
+      <link>http://localhost:1313/experience/cis/</link>
+      <pubDate>Fri, 01 Dec 2006 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/experience/cis/</guid>
+      <description>Web Developer Developed websites and web applications using ASP.Net, ASP, C#, VbScript, Javascript, SQL Server </description>
     </item>
   </channel>
 </rss>

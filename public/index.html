@@ -1,1389 +1,487 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.129.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
-<link rel="icon" href=/fav.png type="image/gif">
+	<meta name="generator" content="Hugo 0.129.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
->
-<link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      media="print" onload="this.media='all'" />
-<noscript>
-  <link
-          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-          rel="stylesheet">
-</noscript>
-
-
-<link rel="stylesheet" href="/css/font.css" media="all">
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+<meta name="theme-color" content="#478079" >
 
 
 
-  
+<title>Demo site for Adritian - a high performance hugo theme by Adrián Moreno</title>
+<meta name="description" content="This hugo theme (Adritian) is based on Boostrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications.">
 
 
-<meta property="og:url" content="http://localhost:1313/">
-  <meta property="og:site_name" content="Marc Talcott Profile">
-  <meta property="og:title" content="Marc Talcott Profile">
-  <meta property="og:description" content="Text about my cool site">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="website">
+<style data-generator="critical-css">
 
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Marc Talcott Profile">
-  <meta name="twitter:description" content="Text about my cool site">
-
-
-<link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
-<link rel="stylesheet" href="/css/footer.css" media="all">
-
-
-<link rel="stylesheet" href="/css/theme.css" media="all">
-
-<style>
-    :root {
-        --text-color: #343a40;
-        --text-secondary-color: #6c757d;
-        --background-color: #eaedf0;
-        --secondary-background-color: #64ffda1a;
-        --primary-color: #007bff;
-        --secondary-color: #f8f9fa;
-
-         
-        --text-color-dark: #e4e6eb;
-        --text-secondary-color-dark: #b0b3b8;
-        --background-color-dark: #18191a;
-        --secondary-background-color-dark: #212529;
-        --primary-color-dark: #ffffff;
-        --secondary-color-dark: #212529;
-    }
-    body {
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: left;
-    }
-
-    html {
-        background-color: var(--background-color) !important;
-    }
-
-    body::-webkit-scrollbar {
-        height: 0px;
-        width: 8px;
-        background-color: var(--background-color);
-    }
-
-    ::-webkit-scrollbar-track {
-        border-radius: 1rem;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        border-radius: 1rem;
-        background: #b0b0b0;
-        outline: 1px solid var(--background-color);
-    }
-
-    #search-content::-webkit-scrollbar {
-        width: .5em;
-        height: .1em;
-        background-color: var(--background-color);
-    }
 </style>
 
 
 
-<meta name="description" content=Text&#32;about&#32;my&#32;cool&#32;site>
-<link rel="stylesheet" href="/css/index.css" media="all">
-<link rel="stylesheet" href="/css/projects.css" media="all">
-
-
-<script defer src="/fontawesome-6/all-6.4.2.js"></script>
-
-
-  
-  
-
-  <title>
-Marc Talcott Profile
-
-  </title>
-</head>
-
-<body class="light">
-  
-  
-<script>
-    let localStorageValue = localStorage.getItem("pref-theme");
-    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-    switch (localStorageValue) {
-        case "dark":
-            document.body.classList.add('dark');
-            break;
-        case "light":
-            document.body.classList.remove('dark');
-            break;
-        default:
-            if (mediaQuery) {
-                document.body.classList.add('dark');
-            }
-            break;
-    }
-</script>
-
-
-
-
-<script>
-    var prevScrollPos = window.pageYOffset;
-    window.addEventListener("scroll", function showHeaderOnScroll() {
-        let profileHeaderElem = document.getElementById("profileHeader");
-        let currentScrollPos = window.pageYOffset;
-        let resetHeaderStyle = false;
-        let showNavBarOnScrollUp =  true ;
-        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
-        if (showNavBar) {
-            profileHeaderElem.classList.add("showHeaderOnTop");
-        } else {
-            resetHeaderStyle = true;
-        }
-        if(currentScrollPos === 0) {
-            resetHeaderStyle = true;
-        }
-        if(resetHeaderStyle) {
-            profileHeaderElem.classList.remove("showHeaderOnTop");
-        }
-        prevScrollPos = currentScrollPos;
-    });
-</script>
-
-
-
-<header id="profileHeader">
-    <nav class="pt-3 navbar navbar-expand-lg animate">
-        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
-            
-            <a class="navbar-brand primary-font text-wrap" href="/">
-                
-                <img src="/fav.png" width="30" height="30"
-                    class="d-inline-block align-top">
-                Marc Talcott Profile
-                
-            </a>
-
-            
-                <div>
-                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
-                        aria-label="Search" oninput="searchOnChange(event)">
-                </div>
-            
-
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
-                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
-                </svg>
-            </button>
-
-            
-            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
-                <ul class="navbar-nav ms-auto text-center">
-                    
-                        <li class="nav-item navbar-text d-block d-md-none">
-                            <div class="nav-link">
-                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
-                            </div>
-                        </li>
-                    
-
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#about" aria-label="about">
-                            About Me
-                        </a>
-                    </li>
-                    
-
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#experience"
-                            aria-label="experience">
-                            Experience
-                        </a>
-                    </li>
-                    
-
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#education"
-                            aria-label="education">
-                            Education
-                        </a>
-                    </li>
-                    
-
-                    
-
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#achievements"
-                            aria-label="achievements">
-                            Achievements
-                        </a>
-                    </li>
-                    
-
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#contact"
-                            aria-label="contact">
-                            Contact
-                        </a>
-                    </li>
-                    
-
-                    
-
-                    
-                    
-                    
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/posts" title="Blog posts">
-                            
-                            Blog
-                        </a>
-                    </li>
-                    
-                    
-
-                    
-                    <li class="nav-item navbar-text">
-                        
-                        <div class="text-center">
-                            <button id="theme-toggle">
-                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                                </svg>
-                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="12" cy="12" r="5"></circle>
-                                    <line x1="12" y1="1" x2="12" y2="3"></line>
-                                    <line x1="12" y1="21" x2="12" y2="23"></line>
-                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                                    <line x1="1" y1="12" x2="3" y2="12"></line>
-                                    <line x1="21" y1="12" x2="23" y2="12"></line>
-                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                                </svg>
-                            </button>
-                        </div>
-                    </li>
-                    
-
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-</header>
-<div id="content">
-<section id="hero" class="py-5 align-middle">
-    <div class="container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-8 content animate" id="primary-font">
-                <span class="subtitle">
-                    Hi, my name is
-                </span>
-                <h2>
-                    Marc.
-                </h2>
-                <h3>
-                    I build software
-                </h3>
-                <p class="hero-content">
-                    A software engineer, architect, and manager, with a passion for solving problems using Event Sourcing. I lead a team of engineers, QA, and Product Managers in the Finance sector. We build systems that can&rsquo;t fail. No pressure. :smile:
-                </p>
-                <div class="row">
-                    <div class="col-auto h-100">
-                        
-                        <a href="#" class="btn" download
-			  >
-                            Resume
-                        </a>
-                        
-                    </div>
-                    <div class="col-auto px-0 h-100"><span>
     
-    <span class="px-1">
-        <a href="https://github.com/marctalcott"
-             target="_blank" 
-            class="btn social-icon"
-        >
-            <i class="fab fa-github"></i>
-        </a>
-    </span>
+        
+        
     
 
     
-    <span class="px-1">
-        <a href="https://marctalcott.com"
-             target="_blank" 
-            class="btn social-icon"
-        >
-            <img src="/fav.png">
-        </a>
-    </span>
+        
+        
     
-</span>
-</div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-12 col-lg-4">
-                <div class="row justify-content-center">
-                    <div class="col-sm-12 col-md-9 pt-5 image animate px-5 px-md-5 px-lg-0 text-center">
-                        <img src="/images/hero.svg"
-                            class="img-thumbnail mx-auto"
-                            alt=""
-                        >
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     
-    <div class="hero-bottom-svg d-md-block d-lg-block d-none">
-        <svg xmlns="http://www.w3.org/2000/svg" width="201" height="201" viewBox="0 0 201 201">
-            <g id="Group_1168" data-name="Group 1168" transform="translate(-384 -1392)">
-                <rect id="Rectangle_2206" data-name="Rectangle 2206" width="12" height="2" rx="1"
-                    transform="translate(391 1392) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2271" data-name="Rectangle 2271" width="12" height="2" rx="1"
-                    transform="translate(391 1500) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2238" data-name="Rectangle 2238" width="12" height="2" rx="1"
-                    transform="translate(391 1446) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2278" data-name="Rectangle 2278" width="12" height="2" rx="1"
-                    transform="translate(391 1554) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2222" data-name="Rectangle 2222" width="12" height="2" rx="1"
-                    transform="translate(391 1419) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2272" data-name="Rectangle 2272" width="12" height="2" rx="1"
-                    transform="translate(391 1527) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2241" data-name="Rectangle 2241" width="12" height="2" rx="1"
-                    transform="translate(391 1473) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2288" data-name="Rectangle 2288" width="12" height="2" rx="1"
-                    transform="translate(391 1581) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2214" data-name="Rectangle 2214" width="12" height="2" rx="1"
-                    transform="translate(499 1392) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2289" data-name="Rectangle 2289" width="12" height="2" rx="1"
-                    transform="translate(499 1500) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2256" data-name="Rectangle 2256" width="12" height="2" rx="1"
-                    transform="translate(499 1446) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2290" data-name="Rectangle 2290" width="12" height="2" rx="1"
-                    transform="translate(499 1554) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2231" data-name="Rectangle 2231" width="12" height="2" rx="1"
-                    transform="translate(499 1419) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2291" data-name="Rectangle 2291" width="12" height="2" rx="1"
-                    transform="translate(499 1527) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2257" data-name="Rectangle 2257" width="12" height="2" rx="1"
-                    transform="translate(499 1473) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2292" data-name="Rectangle 2292" width="12" height="2" rx="1"
-                    transform="translate(499 1581) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2210" data-name="Rectangle 2210" width="12" height="2" rx="1"
-                    transform="translate(445 1392) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2279" data-name="Rectangle 2279" width="12" height="2" rx="1"
-                    transform="translate(445 1500) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2248" data-name="Rectangle 2248" width="12" height="2" rx="1"
-                    transform="translate(445 1446) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2280" data-name="Rectangle 2280" width="12" height="2" rx="1"
-                    transform="translate(445 1554) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2226" data-name="Rectangle 2226" width="12" height="2" rx="1"
-                    transform="translate(445 1419) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2281" data-name="Rectangle 2281" width="12" height="2" rx="1"
-                    transform="translate(445 1527) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2249" data-name="Rectangle 2249" width="12" height="2" rx="1"
-                    transform="translate(445 1473) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2293" data-name="Rectangle 2293" width="12" height="2" rx="1"
-                    transform="translate(445 1581) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2219" data-name="Rectangle 2219" width="12" height="2" rx="1"
-                    transform="translate(553 1392) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2310" data-name="Rectangle 2310" width="12" height="2" rx="1"
-                    transform="translate(553 1500) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2262" data-name="Rectangle 2262" width="12" height="2" rx="1"
-                    transform="translate(553 1446) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2311" data-name="Rectangle 2311" width="12" height="2" rx="1"
-                    transform="translate(553 1554) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2232" data-name="Rectangle 2232" width="12" height="2" rx="1"
-                    transform="translate(553 1419) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2312" data-name="Rectangle 2312" width="12" height="2" rx="1"
-                    transform="translate(553 1527) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2263" data-name="Rectangle 2263" width="12" height="2" rx="1"
-                    transform="translate(553 1473) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2313" data-name="Rectangle 2313" width="12" height="2" rx="1"
-                    transform="translate(553 1581) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2209" data-name="Rectangle 2209" width="12" height="2" rx="1"
-                    transform="translate(418 1392) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2273" data-name="Rectangle 2273" width="12" height="2" rx="1"
-                    transform="translate(418 1500) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2242" data-name="Rectangle 2242" width="12" height="2" rx="1"
-                    transform="translate(418 1446) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2282" data-name="Rectangle 2282" width="12" height="2" rx="1"
-                    transform="translate(418 1554) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2223" data-name="Rectangle 2223" width="12" height="2" rx="1"
-                    transform="translate(418 1419) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2274" data-name="Rectangle 2274" width="12" height="2" rx="1"
-                    transform="translate(418 1527) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2243" data-name="Rectangle 2243" width="12" height="2" rx="1"
-                    transform="translate(418 1473) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2294" data-name="Rectangle 2294" width="12" height="2" rx="1"
-                    transform="translate(418 1581) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2217" data-name="Rectangle 2217" width="12" height="2" rx="1"
-                    transform="translate(526 1392) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2314" data-name="Rectangle 2314" width="12" height="2" rx="1"
-                    transform="translate(526 1500) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2258" data-name="Rectangle 2258" width="12" height="2" rx="1"
-                    transform="translate(526 1446) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2315" data-name="Rectangle 2315" width="12" height="2" rx="1"
-                    transform="translate(526 1554) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2233" data-name="Rectangle 2233" width="12" height="2" rx="1"
-                    transform="translate(526 1419) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2316" data-name="Rectangle 2316" width="12" height="2" rx="1"
-                    transform="translate(526 1527) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2259" data-name="Rectangle 2259" width="12" height="2" rx="1"
-                    transform="translate(526 1473) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2317" data-name="Rectangle 2317" width="12" height="2" rx="1"
-                    transform="translate(526 1581) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2211" data-name="Rectangle 2211" width="12" height="2" rx="1"
-                    transform="translate(472 1392) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2295" data-name="Rectangle 2295" width="12" height="2" rx="1"
-                    transform="translate(472 1500) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2250" data-name="Rectangle 2250" width="12" height="2" rx="1"
-                    transform="translate(472 1446) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2296" data-name="Rectangle 2296" width="12" height="2" rx="1"
-                    transform="translate(472 1554) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2227" data-name="Rectangle 2227" width="12" height="2" rx="1"
-                    transform="translate(472 1419) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2297" data-name="Rectangle 2297" width="12" height="2" rx="1"
-                    transform="translate(472 1527) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2251" data-name="Rectangle 2251" width="12" height="2" rx="1"
-                    transform="translate(472 1473) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2298" data-name="Rectangle 2298" width="12" height="2" rx="1"
-                    transform="translate(472 1581) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2221" data-name="Rectangle 2221" width="12" height="2" rx="1"
-                    transform="translate(580 1392) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2318" data-name="Rectangle 2318" width="12" height="2" rx="1"
-                    transform="translate(580 1500) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2264" data-name="Rectangle 2264" width="12" height="2" rx="1"
-                    transform="translate(580 1446) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2319" data-name="Rectangle 2319" width="12" height="2" rx="1"
-                    transform="translate(580 1554) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2236" data-name="Rectangle 2236" width="12" height="2" rx="1"
-                    transform="translate(580 1419) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2320" data-name="Rectangle 2320" width="12" height="2" rx="1"
-                    transform="translate(580 1527) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2265" data-name="Rectangle 2265" width="12" height="2" rx="1"
-                    transform="translate(580 1473) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2321" data-name="Rectangle 2321" width="12" height="2" rx="1"
-                    transform="translate(580 1581) rotate(90)" fill="#282f49" />
-                <rect id="Rectangle_2207" data-name="Rectangle 2207" width="12" height="2" rx="1"
-                    transform="translate(396 1399) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2270" data-name="Rectangle 2270" width="12" height="2" rx="1"
-                    transform="translate(396 1507) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2239" data-name="Rectangle 2239" width="12" height="2" rx="1"
-                    transform="translate(396 1453) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2283" data-name="Rectangle 2283" width="12" height="2" rx="1"
-                    transform="translate(396 1561) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2224" data-name="Rectangle 2224" width="12" height="2" rx="1"
-                    transform="translate(396 1426) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2275" data-name="Rectangle 2275" width="12" height="2" rx="1"
-                    transform="translate(396 1534) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2244" data-name="Rectangle 2244" width="12" height="2" rx="1"
-                    transform="translate(396 1480) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2299" data-name="Rectangle 2299" width="12" height="2" rx="1"
-                    transform="translate(396 1588) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2215" data-name="Rectangle 2215" width="12" height="2" rx="1"
-                    transform="translate(504 1399) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2300" data-name="Rectangle 2300" width="12" height="2" rx="1"
-                    transform="translate(504 1507) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2252" data-name="Rectangle 2252" width="12" height="2" rx="1"
-                    transform="translate(504 1453) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2301" data-name="Rectangle 2301" width="12" height="2" rx="1"
-                    transform="translate(504 1561) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2228" data-name="Rectangle 2228" width="12" height="2" rx="1"
-                    transform="translate(504 1426) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2302" data-name="Rectangle 2302" width="12" height="2" rx="1"
-                    transform="translate(504 1534) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2253" data-name="Rectangle 2253" width="12" height="2" rx="1"
-                    transform="translate(504 1480) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2303" data-name="Rectangle 2303" width="12" height="2" rx="1"
-                    transform="translate(504 1588) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2212" data-name="Rectangle 2212" width="12" height="2" rx="1"
-                    transform="translate(450 1399) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2284" data-name="Rectangle 2284" width="12" height="2" rx="1"
-                    transform="translate(450 1507) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2245" data-name="Rectangle 2245" width="12" height="2" rx="1"
-                    transform="translate(450 1453) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2285" data-name="Rectangle 2285" width="12" height="2" rx="1"
-                    transform="translate(450 1561) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2229" data-name="Rectangle 2229" width="12" height="2" rx="1"
-                    transform="translate(450 1426) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2286" data-name="Rectangle 2286" width="12" height="2" rx="1"
-                    transform="translate(450 1534) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2246" data-name="Rectangle 2246" width="12" height="2" rx="1"
-                    transform="translate(450 1480) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2304" data-name="Rectangle 2304" width="12" height="2" rx="1"
-                    transform="translate(450 1588) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2218" data-name="Rectangle 2218" width="12" height="2" rx="1"
-                    transform="translate(558 1399) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2322" data-name="Rectangle 2322" width="12" height="2" rx="1"
-                    transform="translate(558 1507) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2266" data-name="Rectangle 2266" width="12" height="2" rx="1"
-                    transform="translate(558 1453) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2323" data-name="Rectangle 2323" width="12" height="2" rx="1"
-                    transform="translate(558 1561) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2234" data-name="Rectangle 2234" width="12" height="2" rx="1"
-                    transform="translate(558 1426) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2324" data-name="Rectangle 2324" width="12" height="2" rx="1"
-                    transform="translate(558 1534) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2267" data-name="Rectangle 2267" width="12" height="2" rx="1"
-                    transform="translate(558 1480) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2325" data-name="Rectangle 2325" width="12" height="2" rx="1"
-                    transform="translate(558 1588) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2208" data-name="Rectangle 2208" width="12" height="2" rx="1"
-                    transform="translate(423 1399) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2276" data-name="Rectangle 2276" width="12" height="2" rx="1"
-                    transform="translate(423 1507) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2240" data-name="Rectangle 2240" width="12" height="2" rx="1"
-                    transform="translate(423 1453) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2287" data-name="Rectangle 2287" width="12" height="2" rx="1"
-                    transform="translate(423 1561) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2225" data-name="Rectangle 2225" width="12" height="2" rx="1"
-                    transform="translate(423 1426) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2277" data-name="Rectangle 2277" width="12" height="2" rx="1"
-                    transform="translate(423 1534) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2247" data-name="Rectangle 2247" width="12" height="2" rx="1"
-                    transform="translate(423 1480) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2305" data-name="Rectangle 2305" width="12" height="2" rx="1"
-                    transform="translate(423 1588) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2216" data-name="Rectangle 2216" width="12" height="2" rx="1"
-                    transform="translate(531 1399) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2326" data-name="Rectangle 2326" width="12" height="2" rx="1"
-                    transform="translate(531 1507) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2260" data-name="Rectangle 2260" width="12" height="2" rx="1"
-                    transform="translate(531 1453) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2327" data-name="Rectangle 2327" width="12" height="2" rx="1"
-                    transform="translate(531 1561) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2235" data-name="Rectangle 2235" width="12" height="2" rx="1"
-                    transform="translate(531 1426) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2328" data-name="Rectangle 2328" width="12" height="2" rx="1"
-                    transform="translate(531 1534) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2261" data-name="Rectangle 2261" width="12" height="2" rx="1"
-                    transform="translate(531 1480) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2329" data-name="Rectangle 2329" width="12" height="2" rx="1"
-                    transform="translate(531 1588) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2213" data-name="Rectangle 2213" width="12" height="2" rx="1"
-                    transform="translate(477 1399) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2306" data-name="Rectangle 2306" width="12" height="2" rx="1"
-                    transform="translate(477 1507) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2254" data-name="Rectangle 2254" width="12" height="2" rx="1"
-                    transform="translate(477 1453) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2307" data-name="Rectangle 2307" width="12" height="2" rx="1"
-                    transform="translate(477 1561) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2230" data-name="Rectangle 2230" width="12" height="2" rx="1"
-                    transform="translate(477 1426) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2308" data-name="Rectangle 2308" width="12" height="2" rx="1"
-                    transform="translate(477 1534) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2255" data-name="Rectangle 2255" width="12" height="2" rx="1"
-                    transform="translate(477 1480) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2309" data-name="Rectangle 2309" width="12" height="2" rx="1"
-                    transform="translate(477 1588) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2220" data-name="Rectangle 2220" width="12" height="2" rx="1"
-                    transform="translate(585 1399) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2330" data-name="Rectangle 2330" width="12" height="2" rx="1"
-                    transform="translate(585 1507) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2268" data-name="Rectangle 2268" width="12" height="2" rx="1"
-                    transform="translate(585 1453) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2331" data-name="Rectangle 2331" width="12" height="2" rx="1"
-                    transform="translate(585 1561) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2237" data-name="Rectangle 2237" width="12" height="2" rx="1"
-                    transform="translate(585 1426) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2332" data-name="Rectangle 2332" width="12" height="2" rx="1"
-                    transform="translate(585 1534) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2269" data-name="Rectangle 2269" width="12" height="2" rx="1"
-                    transform="translate(585 1480) rotate(-180)" fill="#282f49" />
-                <rect id="Rectangle_2333" data-name="Rectangle 2333" width="12" height="2" rx="1"
-                    transform="translate(585 1588) rotate(-180)" fill="#282f49" />
-            </g>
-        </svg>
-    </div>
+        
+        
     
-</section>
-
-<section id="about" class="py-0 py-sm-5">
-    <div class="container bg-transparent">
-        <h3 class="text-center bg-transparent">About Me</h3>
-        <div class="bg-transparent row justify-content-center px-3 py-5">
-            
-            <div class="col-sm-12 col-md-8 col-lg-4 mb-5 mb-sm-0 mb-md-5 mb-lg-0 d-none d-sm-none d-md-block">
-                <div class="image d-flex px-5">
-                    <img src="/images/me.png" class="img-thumbnail mx-auto rounded-circle" alt="">
-                </div>
-            </div>
-            
-            <div class="col-sm-12 col-md-12 col-lg-8 content">
-                <p>I am a software developer, architect, and manager with a passion for Event Sourcing. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as Manager of Finance Engineering at <a href="https://inmar.com">Inmar Intelligence.</a> in Winston Salem, NC.</p>
-<p>I&rsquo;m currently working on exiting projects related to Finance and Payments.</p>
 
 
-                
-                Here are a few technologies I&#39;ve been working with recently:
-                <ul>
-                    
-                    <li>.Net</li>
-                    
-                    <li>HTML</li>
-                    
-                    <li>CSS</li>
-                    
-                    <li>JavaScript / TypeScript</li>
-                    
-                    <li>React / Angular</li>
-                    
-                    <li>Angular</li>
-                    
-                    <li>Go</li>
-                    
-                    <li>Python</li>
-                    
-                    <li>Kubernetes</li>
-                    
-                    <li>AI</li>
-                    
-                </ul>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="experience" class="py-5">
-    <div class="container">
-        <h3 class="text-center">Experience</h3>
-        <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-8 col-lg-8 py-5">
-                <div class="experience-container px-3 pt-2">
-                    <ul class="nav nav-pills mb-3 bg-transparent primary-font" id="pills-tab" role="tablist">
-                        
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link active bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='Inmar-3-May-2023---present-tab'
-                                data-bs-target='#pills-Inmar-3-May-2023---present'
-                                aria-controls='Inmar-3-May-2023---present' 
-                            >
-                                Inmar 3
-                            </div>
-                        </li>
-                        
-                        
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='Inmar-2-Jul-2020---May-2023-tab'
-                                data-bs-target='#pills-Inmar-2-Jul-2020---May-2023' 
-                                aria-controls='Inmar-2-Jul-2020---May-2023'
-                            >
-                                Inmar 2
-                            </div>
-                        </li>
-                        
-                        
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='Inmar-1-Aug-2017---Jul-2020-tab'
-                                data-bs-target='#pills-Inmar-1-Aug-2017---Jul-2020' 
-                                aria-controls='Inmar-1-Aug-2017---Jul-2020'
-                            >
-                                Inmar 1
-                            </div>
-                        </li>
-                        
-                        
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='Senteon-May-2016---Aug-2017-tab'
-                                data-bs-target='#pills-Senteon-May-2016---Aug-2017' 
-                                aria-controls='Senteon-May-2016---Aug-2017'
-                            >
-                                Senteon
-                            </div>
-                        </li>
-                        
-                        
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='Ecolab-Apr-2015---Apr-2016-tab'
-                                data-bs-target='#pills-Ecolab-Apr-2015---Apr-2016' 
-                                aria-controls='Ecolab-Apr-2015---Apr-2016'
-                            >
-                                Ecolab
-                            </div>
-                        </li>
-                        
-                        
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='North-State-(now-Lumos)-Jan-2013---Apr-2015-tab'
-                                data-bs-target='#pills-North-State-(now-Lumos)-Jan-2013---Apr-2015' 
-                                aria-controls='North-State-(now-Lumos)-Jan-2013---Apr-2015'
-                            >
-                                North State (now Lumos)
-                            </div>
-                        </li>
-                        
-                        
-                        
-                        <li class="nav-item px-1 bg-transparent" role="presentation">
-                            <div 
-                                class="nav-link bg-transparent" 
-                                aria-selected="true" 
-                                role="tab" 
-                                data-bs-toggle="pill"
-                                id='Aquest-Hosting-Nov-2003---Mar-2014-tab'
-                                data-bs-target='#pills-Aquest-Hosting-Nov-2003---Mar-2014' 
-                                aria-controls='Aquest-Hosting-Nov-2003---Mar-2014'
-                            >
-                                Aquest Hosting
-                            </div>
-                        </li>
-                        
-                        
-                    </ul>
-                    <div class="tab-content pb-5 pt-2 bg-transparent primary-font" id="pills-tabContent">
-                        
-                        
-                        <div 
-                            class="tab-pane fade show active bg-transparent" 
-                            role="tabpanel"
-                            id='pills-Inmar-3-May-2023---present'
-                            aria-labelledby='pills-Inmar-3-May-2023---present-tab'
-                        >
-                            <div>
-                                <span class="h4">Senior Manager, Finance Engineering</span>
-                                <small>-</small>
-                                <a href="https://inmar.com" target="_blank">Inmar 3</a>
-                                <div class="pb-1">
-                                    <small>May 2023 - present</small>
-                                    
-                                    <span class="p-2">
-                                        <span 
-                                            style="cursor: pointer;" 
-                                            data-bs-toggle="tooltip" 
-                                            data-bs-placement="top" 
-                                            data-bs-original-title=Working&#32;as&#32;a&#32;Senior&#32;Manager,&#32;Finance&#32;Engineering&#32;at&#32;Inmar&#32;3
-                                        >
-                                            <i class="fas fa-info-circle fa-xs"></i>
-                                        </span>
-                                    </span>
-                                    
-                                </div>
-
-                                
-                            </div>
-
-                            Currently leading exciting projects in the Payment sector. This is full of fun challenges.
-                        </div>
-                        
-                        
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-Inmar-2-Jul-2020---May-2023'
-                            aria-labelledby='pills-Inmar-2-Jul-2020---May-2023-tab'
-                        >
-                            <div>
-                                <span class="h4">Manager, Finance Engineering</span>
-                                <small>-</small>
-                                <a href="https://inmar.com" target="_blank">Inmar 2</a>
-                                
-                                <div class="pb-1">
-                                    <small>Jul 2020 - May 2023</small>
-                                    
-                                    <span class="p-2">
-                                        <span 
-                                            style="cursor: pointer;" 
-                                            data-bs-toggle="tooltip" 
-                                            data-bs-placement="top" 
-                                            data-bs-original-title=Worked&#32;as&#32;a&#32;Manager,&#32;Finance&#32;Engineering&#32;at&#32;Inmar&#32;2
-                                        > 
-                                            <i class="fas fa-info-circle fa-xs"></i>
-                                        </span>
-                                    </span>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-
-                            <div class="pt-2">
-                                Managed a team of talented engineers in the US and off-shore. We collaborated effectively to deliver integrations and software products used for billions of dollars of billing.
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-Inmar-1-Aug-2017---Jul-2020'
-                            aria-labelledby='pills-Inmar-1-Aug-2017---Jul-2020-tab'
-                        >
-                            <div>
-                                <span class="h4">Senior Software Engineer</span>
-                                <small>-</small>
-                                <a href="https://inmar.com" target="_blank">Inmar 1</a>
-                                
-                                <div class="pb-1">
-                                    <small>Aug 2017 - Jul 2020</small>
-                                    
-                                    <span class="p-2">
-                                        <span 
-                                            style="cursor: pointer;" 
-                                            data-bs-toggle="tooltip" 
-                                            data-bs-placement="top" 
-                                            data-bs-original-title=Worked&#32;as&#32;a&#32;Senior&#32;Software&#32;Engineer&#32;at&#32;Inmar&#32;1
-                                        > 
-                                            <i class="fas fa-info-circle fa-xs"></i>
-                                        </span>
-                                    </span>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-
-                            <div class="pt-2">
-                                <p>Contributed as a senior engineer in the Health Care sector at Inmar developing applications related to insurance reconcialtion.</p>
-<ul>
-<li>Full stack developer for .Net projects using Angular front-ends.</li>
-<li>SQL</li>
-<li>UC4 jobs</li>
-<li>Iseries data access</li>
-</ul>
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-Senteon-May-2016---Aug-2017'
-                            aria-labelledby='pills-Senteon-May-2016---Aug-2017-tab'
-                        >
-                            <div>
-                                <span class="h4">Senior Software Engineer</span>
-                                <small>-</small>
-                                <a href="http://web.archive.org/web/20170303174904/https://www.senteon.com/" target="_blank">Senteon</a>
-                                
-                                <div class="pb-1">
-                                    <small>May 2016 - Aug 2017</small>
-                                    
-                                    <span class="p-2">
-                                        <span 
-                                            style="cursor: pointer;" 
-                                            data-bs-toggle="tooltip" 
-                                            data-bs-placement="top" 
-                                            data-bs-original-title=Worked&#32;as&#32;a&#32;Senior&#32;Software&#32;Engineer&#32;at&#32;Senteon
-                                        > 
-                                            <i class="fas fa-info-circle fa-xs"></i>
-                                        </span>
-                                    </span>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-
-                            <div class="pt-2">
-                                <p>Contributed as a senior engineer in the Health Care sector at Inmar developing applications related to insurance reconcialtion.</p>
-<ul>
-<li>Full stack developer for .Net projects using Angular front-ends.</li>
-<li>SQL</li>
-<li>UC4 jobs</li>
-<li>Iseries data access</li>
-</ul>
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-Ecolab-Apr-2015---Apr-2016'
-                            aria-labelledby='pills-Ecolab-Apr-2015---Apr-2016-tab'
-                        >
-                            <div>
-                                <span class="h4">Senior Software Engineer</span>
-                                <small>-</small>
-                                <a href="http://ecolab.com/" target="_blank">Ecolab</a>
-                                
-                                <div class="pb-1">
-                                    <small>Apr 2015 - Apr 2016</small>
-                                    
-                                    <span class="p-2">
-                                        <span 
-                                            style="cursor: pointer;" 
-                                            data-bs-toggle="tooltip" 
-                                            data-bs-placement="top" 
-                                            data-bs-original-title=Worked&#32;as&#32;a&#32;Senior&#32;Software&#32;Engineer&#32;at&#32;Ecolab
-                                        > 
-                                            <i class="fas fa-info-circle fa-xs"></i>
-                                        </span>
-                                    </span>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-
-                            <div class="pt-2">
-                                <p>Contributed as a senior engineer.</p>
-<ul>
-<li>Full stack developer for .Net.</li>
-<li>SQL</li>
-<li>Silverlight</li>
-</ul>
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-North-State-(now-Lumos)-Jan-2013---Apr-2015'
-                            aria-labelledby='pills-North-State-(now-Lumos)-Jan-2013---Apr-2015-tab'
-                        >
-                            <div>
-                                <span class="h4">Software Engineer</span>
-                                <small>-</small>
-                                <a href="https://www.lumosfiber.com" target="_blank">North State (now Lumos)</a>
-                                
-                                <div class="pb-1">
-                                    <small>Jan 2013 - Apr 2015</small>
-                                    
-                                    <span class="p-2">
-                                        <span 
-                                            style="cursor: pointer;" 
-                                            data-bs-toggle="tooltip" 
-                                            data-bs-placement="top" 
-                                            data-bs-original-title=Worked&#32;as&#32;a&#32;Software&#32;Engineer&#32;at&#32;North&#32;State&#32;(now&#32;Lumos)
-                                        > 
-                                            <i class="fas fa-info-circle fa-xs"></i>
-                                        </span>
-                                    </span>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-
-                            <div class="pt-2">
-                                <p>Contributed as a software engineer.</p>
-<ul>
-<li>Full stack developer for .Net.</li>
-<li>SQL</li>
-<li>MVC</li>
-<li>WebAPI</li>
-<li>Task Automation</li>
-<li>SSRS Reporting</li>
-</ul>
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        <div 
-                            class="tab-pane fade bg-transparent" 
-                            role="tabpanel"
-                            id='pills-Aquest-Hosting-Nov-2003---Mar-2014'
-                            aria-labelledby='pills-Aquest-Hosting-Nov-2003---Mar-2014-tab'
-                        >
-                            <div>
-                                <span class="h4">Software Engineer, Founder</span>
-                                <small>-</small>
-                                <a href="https://web.archive.org/web/20140216095500/http://aquesthosting.com/" target="_blank">Aquest Hosting</a>
-                                
-                                <div class="pb-1">
-                                    <small>Nov 2003 - Mar 2014</small>
-                                    
-                                    <span class="p-2">
-                                        <span 
-                                            style="cursor: pointer;" 
-                                            data-bs-toggle="tooltip" 
-                                            data-bs-placement="top" 
-                                            data-bs-original-title=Worked&#32;as&#32;a&#32;Software&#32;Engineer,&#32;Founder&#32;at&#32;Aquest&#32;Hosting
-                                        > 
-                                            <i class="fas fa-info-circle fa-xs"></i>
-                                        </span>
-                                    </span>
-                                    
-                                </div>
-                                
-                                
-                            </div>
-
-                            <div class="pt-2">
-                                <p>Founded Aquest Hosting in 2003 for .Net developers.
-Contributed as a software engineer.</p>
-<ul>
-<li>Full stack developer for .Net.</li>
-<li>SQL</li>
-<li>Customer Service</li>
-<li>Small Business Management</li>
-</ul>
-                            </div>
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
-<section id="education" class="py-5">
-    <div class="container">
-        <h3 class="text-center">Education</h3>
-        <div class="row justify-content-center py-5">
-            
-            
-            <div class="col-12 p-0">
-                <div class="row row align-items-center justify-content-center m-1 mb-4">
-                    
 
-                    <div class="col-md-9">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="float-end">
-                                    <small>2000 - 2005</small>
-                                </div>
-                                <h5 class="card-title">Computer Science</h5>
-                                
-                                
-                                <a href="https://www.uncg.edu/" target="_blank">
-                                    <h6>
-                                    University of North Carolina, Greensboro
-                                    </h6>
-                                </a>
-                                
-
-                                
-                                <div class="py-1 education-content">
-                                    Upsilon Pi Epsilon - <a href="http://upe.acm.org/">http://upe.acm.org/</a>
-                                </div>
-
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</section>
-
-
-<section id="achievements" class="py-5">
-    <div class="container">
-        <h3 class="text-center">Achievements</h3>
-        <div class="px-0 px-md-5 px-lg-5">
-            <div class="row justify-content-center px-3 px-md-5 px-lg-5">
-                
-                
-                <div class="col-lg-4 col-md-6 my-3">
-                    <a class="card my-3 h-100 p-3" href="https://web.archive.org/web/20140216095500/http://aquesthosting.com/" title="Aquest Hosting" target="_blank">
-                        
-                        <div class="card-body bg-transparent">
-                            <h5 class="card-title bg-transparent">Aquest Hosting</h5>
-                            <div class="card-text secondary-font">
-                                I created a .Net Hosting business targeting .Net developers and ran it for 10 years.
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-                
-                
-                <div class="col-lg-4 col-md-6 my-3">
-                    <a class="card my-3 h-100 p-3" href="https://inmar.com" title="Introduced Event Sourcing and Event Modeling to Inmar" target="_blank">
-                        
-                        <div class="card-body bg-transparent">
-                            <h5 class="card-title bg-transparent">Introduced Event Sourcing and Event Modeling to Inmar</h5>
-                            <div class="card-text secondary-font">
-                                Researched how Event Sourcing would benefit the Finance engineering team, and how Event Modeling would benefit the development of Event Sourced software. Then introduced and managed the implementation of both
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-                
-                
-                <div class="col-lg-4 col-md-6 my-3">
-                    <div class="card my-3 h-100 p-3" title="MCSD Certified">
-                        
-                        <div class="card-body bg-transparent">
-                            <h5 class="card-title bg-transparent">MCSD Certified</h5>
-                            <div class="card-text secondary-font">
-                                I achieved my MCSD certification in 2001 while still in University. I was very proud of this accomplishment.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                
-                <div class="col-lg-4 col-md-6 my-3">
-                    <div class="card my-3 h-100 p-3" title="Scrum Master Certified">
-                        
-                        <div class="card-body bg-transparent">
-                            <h5 class="card-title bg-transparent">Scrum Master Certified</h5>
-                            <div class="card-text secondary-font">
-                                I achieved my Scrum Master certification in 2016, and have worked using Scrum and Kanban methodoligies since them. I prefer Kanban. I have not kept up with my recertifications and would not do so unless it was a requirement by someone else.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                
-                <div class="col-lg-4 col-md-6 my-3">
-                    <a class="card my-3 h-100 p-3" href="https://courses.edx.org/certificates/ffbc9a726f254bf5b0e0d42e09e8873f" title="Excercising Leadership: Foundational Principles Certificate" target="_blank">
-                        
-                        <div class="card-body bg-transparent">
-                            <h5 class="card-title bg-transparent">Excercising Leadership: Foundational Principles Certificate</h5>
-                            <div class="card-text secondary-font">
-                                Completed in Apr 2024. Continuing education in Business Leaderhip.
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="contact" class="py-5">
-    <div class="container">
-        <h3 class="text-center">Get in Touch</h3>
-        <div class="px-0 px-md-5 px-lg-5">
-            <div class="row justify-content-center px-md-5">
-                <div class="col-md-8 py-3">
-                    <div class="text-center">
-                        My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-                    </div>
-                    
-                    <div class="text-center pt-3">
-                        <a 
-                            href='
-                                    mailto:marctalcott@gmail.com
-                                  '
-                            target="_blank"
-                            class="btn"
-                        >
-                            Mail me
-                        </a>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="contact-form-status"></div>
-</section>
-
-
-<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-  <symbol id="check-circle-fill" viewBox="0 0 16 16">
-    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
-  </symbol>
-  <symbol id="info-fill" viewBox="0 0 16 16">
-    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-  </symbol>
-  <symbol id="exclamation-triangle-fill" viewBox="0 0 16 16">
-    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-  </symbol>
-</svg>
-
-  </div><footer>
-    
  
 
-<div class="text-center pt-2">
-    
-    <span class="px-1">
-        <a href="https://github.com/marctalcott" aria-label="github">
-            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
-                <path
-                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
 
-                <metadata>
-                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
-                        <rdf:Description about="https://iconscout.com/legal#licenses"
-                            dc:title="Github, Online, Project, Hosting, Square"
-                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
-                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
-                            <dc:creator>
-                                <rdf:Bag>
-                                    <rdf:li>Font Awesome</rdf:li>
-                                </rdf:Bag>
-                            </dc:creator>
-                        </rdf:Description>
-                    </rdf:RDF>
-                </metadata>
-            </svg>
+<link
+  rel="preload"
+  href="/css/bundle.css"
+  as="style"
+  data-generator="purgeCSS"
+  onload="this.onload=null;this.rel='stylesheet'"
+  
+/>
+<noscript>
+  <link 
+    rel="stylesheet" 
+    href="/css/bundle.css"
+    
+  />
+</noscript>
+
+
+
+<script src='http://localhost:1313/js/library/lozad.min.js'></script>
+
+
+
+    
+
+
+</head>
+
+<body class="home">
+
+	
+
+<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-auto" href="http://localhost:1313/">
+          <span>Marc</span>
+          <span>Talcott</span>
         </a>
-    </span>
-    
-
-    
-    <span class="px-1">
-        <a href="https://www.linkedin.com/in/marc-talcott-csm-mcsd-a5617a33/" aria-label="linkedin">
-            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
-                viewBox="0 0 512 512">
-                <rect width="512" height="512" fill="#0077b5" rx="15%" />
-                <circle cx="142" cy="138" r="37" />
-                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
-                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
-            </svg>
-        </a>
-    </span>
-    
-
-    
-
-    
-
-    
-</div><div class="container py-4">
-    <div class="row justify-content-center">
-        <div class="col-md-4 text-center">
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent, #header"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="http://localhost:1313/">HOME</a>
+            </li>
             
-                <div class="pb-2">
-                    <a href="http://localhost:1313/" title="Marc Talcott Profile">
-                        <img alt="Footer logo" src="/fav.png"
-                            height="40px" width="40px">
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/#about"
+                >ABOUT</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/blog"
+                >BLOG</a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/#contact"
+                >CONTACT</a
+              >
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+
+	
+	
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+  <div class="container">
+    <div class="row flex-column-reverse flex-md-row rad-fade-down rad-waiting rad-animate">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <h1 class="display-1">
+          Hello, I’m Marc.
+          <br />
+          <span
+            >I build software (among other things).
+</span
+          >
+        </h1>
+        <p class="lead">
+          I'm a software engineer that loves designing and architecting solutions to difficult problems. I am currently the <em>Sr. Manager of Software Engineering, Finance IT</em> at <a href="https://www.inmar.com">Inmar Intelligence</a>. I work with a stellar team of engineers, QA, and product managers. 
+
+        </p>
+        <a
+          href="https://www.marctalcott.com/"
+          class="btn btn-primary"
+        >
+          <i class="icon-mail-fill"></i>
+          Contact
+        </a>
+      </div>
+<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 profile-image">
+
+  
+  
+  
+  
+
+
+  <picture>
+    <source srcset="/images/showcase/showcase_hu57821f3ee9e7e340ba5e910cd2d0ef59_97360_790x768_resize_q75_h1_lanczos_3.webp 1x, /images/showcase/showcase@2x_hudbcc18b730e3716b82d51ce4379eebf6_352031_1580x1536_resize_q75_h1_lanczos_3.webp 2x" type="image/webp" />
+    <source srcset="/images/showcase/showcase.png 1x, /images/showcase/showcase@2x.png 2x" type="image/webp">
+    <img
+      width="790"
+      height="768"
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      srcset="/images/showcase/showcase.png 1x, /images/showcase/showcase@2x.png 2x"
+      data-src="/images/showcase/showcase.png"
+      data-srcset="/images/showcase/showcase.png 1x, /images/showcase/showcase@2x.png 2x"
+      alt=""
+    />
+  </picture>
+
+</div>
+    </div>
+    <div class="row platform-links">
+      <div class="col-12">
+        
+        <a href="https://www.linkedin.com/in/marc-talcott-csm-mcsd-a5617a33/" target="_blank" rel="noopener noreferrer" aria-label="linkedin"
+          ><i class="icon-linkedin-line"></i
+        ></a>
+        
+        <a href="https://github.com/marctalcott" target="_blank" rel="noopener noreferrer" aria-label="github"
+          ><i class="icon-github-line"></i
+        ></a>
+        
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+	
+	
+<section class="section rad-animation-group pb-0" id="about">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="about__profile-picture col-12 col-md-6">
+        
+              
+        
+        
+        <picture>
+          <source srcset="/images/who-am-i/marc_hue7c48d9ef148ba6e0e582d85ec2407ab_56981_576x576_resize_q75_h2_box.webp 1x, /images/who-am-i/marc_hue7c48d9ef148ba6e0e582d85ec2407ab_56981_576x576_resize_q75_h2_box.webp 2x" type="image/webp" />
+          <source srcset="/images/who-am-i/marc.jpg 1x, /images/who-am-i/marc.jpg 2x" type="image/webp">
+          <img
+            width="576"
+            height="576"
+            class="lozad img-responsive image-left-overflow"
+            src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+            srcset="/images/who-am-i/marc.jpg 1x, /images/who-am-i/marc.jpg 2x"
+            data-src="/images/who-am-i/marc.jpg"
+            data-srcset="/images/who-am-i/marc.jpg 1x, /images/who-am-i/marc.jpg 2x"
+            alt="Profile Picture of Adrián Moreno (@zetxek), working side by side with a colleague: sitting on a desk, while looking at a screen"
+          />
+        </picture>
+      </div>
+      <div class="col-12 col-md-6 my-auto my-auto">
+        <h2>Who am I?</h2>
+        <p class="lead">
+  <em>The Software Engineer:<em><br>
+  I've been coding since I was a kid.  I studied Computer Science at UNCG where I was recognized for excellence and invited to, and joined, the <a href="https://upe.acm.org/membership/">Upsilon Pi Epsilon Honor Society for Computer Science</a>.  I'm so happy that I have been able to spend most of adult life working as a software engineer. Now I love sharing what I've learned with others.
+  <br>
+  Currently I'm particulary interested in <a href="https://www.eventstore.com/event-sourcing">Event Sourcing</a> and its ability to provide a perfect audit log. As you can imagine that is critically important in finacial applications, but also in any application where you want to understand how people use your application. 
+</p> <p class="lead"> <em>The Photographer:</em><br>
+  When not working, I love to travel and practice photography.  
+</p> <p class="lead"> <em>The Farmer / Gardener:</em><br>
+  One of the great things that came out of the Covid 19 pandemic was I started gardening in my backyard which has turned into a passion my wife and I share. We have a thriving organic garden and are now branching out into a larger scale farm and nursery called <em>'Talcott Farm and Nursery'</em>. This is an exciting new chapter for us.
+</p>
+
+        <a
+          href="https://www.linkedin.com/in/marc-talcott-csm-mcsd-a5617a33/"
+          target="_blank"
+          class="btn btn-primary"
+        >
+          <i class="icon-smile-fill"></i>
+          About Me
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	
+	
+
+	
+	
+<section id="experience" class="section-experience section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 cold-md-12 col-sm-6 mt-5 mt-sm-0">
+                
+                
+                
+                
+                
+                
+                
+                <div class="experience">
+                    <a href="http://localhost:1313/experience/inmar/">
+                        
+                        <div class="experience__date">2023 - Present</div>
+                        <div class="experience__title">Sr. Software Manager</div>
+                        <div class="experience__company">Inmar Intelligence. <span class="experience__location">Winston-Salem, NC</span></div>
                     </a>
                 </div>
-            
-            &copy; 2024  All rights reserved
-            <div class="text-secondary">
-                Made with
-                <span class="text-danger">
-                    &#10084;
-                </span>
-                and
-                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
-                    title="Designed and developed by gurusabarish">
-                    Hugo Profile
-                </a>
+                
+                <div class="experience">
+                    <a href="http://localhost:1313/experience/inmar-mgr/">
+                        
+                        <div class="experience__date">2020 - 2023</div>
+                        <div class="experience__title">Software Engineering Manager</div>
+                        <div class="experience__company">Inmar Intelligence. <span class="experience__location">Winston-Salem, NC</span></div>
+                    </a>
+                </div>
+                
+                <div class="experience">
+                    <a href="http://localhost:1313/experience/inmar-sr-eng/">
+                        
+                        <div class="experience__date">2017 - 2020</div>
+                        <div class="experience__title">Sr. Software Engineer</div>
+                        <div class="experience__company">Inmar Intelligence. <span class="experience__location">Winston-Salem, NC</span></div>
+                    </a>
+                </div>
+                
+                <div class="experience">
+                    <a href="http://localhost:1313/experience/senteon/">
+                        
+                        <div class="experience__date">2016 - 2017</div>
+                        <div class="experience__title">Sr. Software Engineer</div>
+                        <div class="experience__company">Senteon, LLC. <span class="experience__location">Winston-Salem, NC</span></div>
+                    </a>
+                </div>
+                
+                <div class="experience">
+                    <a href="http://localhost:1313/experience/ecolab/">
+                        
+                        <div class="experience__date">2015 - 2016</div>
+                        <div class="experience__title">Contract Software Engineer</div>
+                        <div class="experience__company">Ecolab. <span class="experience__location">Greensboro, NC</span></div>
+                    </a>
+                </div>
+                
+                <div class="experience">
+                    <a href="http://localhost:1313/experience/northstate/">
+                        
+                        <div class="experience__date">2013 - 2015</div>
+                        <div class="experience__title">Software Engineer</div>
+                        <div class="experience__company">North State Communications. <span class="experience__location">High Point, NC</span></div>
+                    </a>
+                </div>
+                
+                
+                <div class="all-experience-container">
+                    
+                    <em>And 2 more</em><br />
+                    <a href="http://localhost:1313/experience " title=" See additional 2 experience items"
+                        class="btn btn-primary btn-all-experience">
+                        <i class=""></i>
+                        
+                    </a>
+                </div>
+                
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="container-experience">
+  <div class="row">
+    <h2>Experience</h2>
+    <p class="lead">Over 20&#43; years of experience helping businesses take advantage of the latest technologies to improve efficiency, security and revenue.
+</p>
+  </div>
+  <div class="row">
+    <div class="col-12 col-lg-4">
+      <a
+        href="https://www.linkedin.com/in/marc-talcott-csm-mcsd-a5617a33/"
+        class="btn btn-primary btn-block"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="icon-linkedin-fill"></i>
+        Linkedin
+        <i class="icon-arrow-right"></i
+      ></a>
+    </div>
+    <div class="col-12 col-lg-4">
+      <a
+        href="http://localhost:1313/"
+        class="btn btn-frameless btn-block"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class=""></i>
+        
+      </a>
+    </div>
+    
+  </div>
+</div>
+
             </div>
         </div>
     </div>
-</div>
-</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
+</section>
+
+	
+	
+
+	
+	
+
+	
+	
+<section id="contact" class="section section--contact pt-0">
+    <div class="container">
+        <div class="contact">
+            <h2>Contact</h2>
+            <div class="row pt-2">
+                <div class="col-12 col-lg-7">
+                    <form action="#" method="">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="full_name" id="full_name"
+                                       placeholder="Full Name"/>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="email" id="email"
+                                       placeholder="Email Address"/>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <textarea name="message" id="message"
+                                          cols="30" rows="3" placeholder="Type Your Message Here"></textarea>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="icon-mail-fill"></i>
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-5 contact__info">
+                    <h3></h3>
+                    <span></span>
+                    <h3>Email</h3>
+                    <span><a href="mailto:marctalcott@gmail.com">marctalcott@gmail.com</a></span>
+                    <h3>Address</h3>
+                    <span>Near Greensboro, North Carolina</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+
+	
+
+	<footer class="footer">
+  <div class="container">
+    <div class="footer__left">
+      <div class="footer__copy">
+        © Marc Talcott
+      </div>
+    </div>
+    <div class="footer__links">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/">🏠 HOME</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">ABOUT</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#portfolio">PORTFOLIO</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">CONTACT</a>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="footer__right">
+      
+    </div>
+  </div>
+</footer>
+
+    <script>
+  window.addEventListener("load", function() {
+    try{
+      var observer = window.lozad(".lozad", {
+        rootMargin: window.innerHeight / 2 + "px 0px",
+        threshold: 0.01
+      }); 
+      observer.observe();
+    } catch(e) {
+      console.error(e);
     }
-
+  });
 </script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
+<script defer src='http://localhost:1313/js/rad-animations.js'></script>
+<script defer src='http://localhost:1313/js/library/smooth-scroll.polyfills.min.js'></script>
+<script defer src='http://localhost:1313/js/sticky-header.js'></script>
+<script defer src='http://localhost:1313/js/smooth-scroll-init.js'></script>
+<script defer src='http://localhost:1313/js/library/bootstrap.min.js'></script>
 
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl)
-    })
-
-</script>
-
-
-    <script src="/js/search.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-  <section id="search-content" class="py-2">
-    <div class="container" id="search-results"></div>
-  </section>
 </body>
 
 </html>
