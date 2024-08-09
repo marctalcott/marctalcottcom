@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/blog/my-first-post/</link>
       <pubDate>Mon, 29 Jul 2024 07:58:22 -0400</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/blog/my-first-post/</guid>
       <description>Introduction I started blogging in 2013 - 2017 on &amp;lsquo;marcustalcott.com&amp;rsquo;. You can find my old articles on Wayback Machine. After 2017 I changed that several times trying to incorporate my photography, and moving the site from service to service. I lost most of the old articles, but that is fine with me. Tech articles from 2013 aren&amp;rsquo;t very relevant anymore.&#xA;I have posted more recent technical posts on Elixm.com. These are generally related to Event Sourcing, Event Modeling, CQRS, Hexagonal Achitecture, and anything else related to developing Event Sourced Applications.</description>
     </item>
     <item>
