@@ -1,8 +1,8 @@
 ---
 date: 2013-12-01T00:00:00+01:00
 draft: false
-title:  "Sr. Software Manager at Inmar"
-jobTitle: "Sr. Software Manager"
+title:  "Sr. Software Engineering Manager at Inmar"
+jobTitle: "Sr. Software Engineering Manager"
 company: "Inmar Intelligence"
 location: "Winston-Salem, NC"
 duration: "2023 - Present"
