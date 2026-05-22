@@ -6,4 +6,5 @@ jobTitle: "Founder"
 company: "Tarheel Solutions, LLC"
 location: "North Carolina"
 duration: "2014 - Present"
+externalURL: "http://tarheelsolutions.com/"
 ---
