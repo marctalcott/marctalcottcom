@@ -7,7 +7,3 @@ company: "Tarheel Solutions, LLC"
 location: "North Carolina"
 duration: "2014 - Present"
 ---
-
-### Founder
-
-Founded and continue to operate Tarheel Solutions, LLC, an independent business based in North Carolina.
