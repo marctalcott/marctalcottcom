@@ -5,7 +5,7 @@ title:  "Sr. Software Engineering Manager at Inmar"
 jobTitle: "Sr. Software Engineering Manager"
 company: "Inmar Intelligence"
 location: "Winston-Salem, NC"
-duration: "2023 - Present"
+duration: "2023 - 2025"
 ---
 
 ### Sr. Manager of Software Engineering
