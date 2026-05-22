@@ -10,11 +10,11 @@ duration: "2025 - Present"
 
 ### Director of Software Engineering
 
-I was promoted to Director of Software Engineering in 2025. I now lead three teams within Finance IT — Software Engineering, DevOps, and Automations — and own the technical direction across our finance and payment platforms.
+I was promoted to Director of Software Engineering in 2025. I now lead three teams within Platform Engineering — Software Engineering, DevOps, and Automations — and own the technical direction across our finance and payment platforms.
 
 It's a privilege to work alongside this group, and a real focus of mine is growing the engineers and leaders on these teams.
 
-- Lead Software Engineering, DevOps, and Automations across Finance IT.
+- Lead Software Engineering, DevOps, and Automations across Platform Engineering.
 - Set architectural direction for event-driven systems, payment platforms, and enterprise data integration.
 - Champion AI-enabled engineering practices across the org.
 - .Net, C#, Azure, Kubernetes, Event Sourcing, CQRS.
